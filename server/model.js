@@ -32,4 +32,4 @@ if (process.argv[1] === url.fileURLToPath(import.meta.url)) {
     console.log('Finished syncing database!');
   }
 
-export {Movie}
+export {Movie} // don't export default so the name can't change
